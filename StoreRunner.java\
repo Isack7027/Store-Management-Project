@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class StoreRunner {
+  public static void main(String[] args) {
+
+    Dish main = new Dish("hi", 15.98, 1);
+    System.out.println(main);
+
+    Naengmyeon second = new Naengmyeon("Naengmyeon", 14.99, 1, "Large");
+    System.out.println(second);
+
+    Tteokbokki third = new Tteokbokki("Tteokbokki", 14.99, 1, "Flavor");
+    System.out.println(third);
+
+    
+  }
+}
